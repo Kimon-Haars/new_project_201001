@@ -4,13 +4,17 @@ h1 {
 
 .grid {
   display: grid;
-  width: 100%;
-  height: 500%;
-  grid-template: 100px 1fr 3fr / 1fr 2fr;
+  grid-template: 100px minmax(100px, 500px) / repeat(2, 37px 100px);
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 .box {
   background-color: red;
   color: black;
-  border: 5px yellow dotted;
+  border: 20px yellow dotted;
+}
+
+.a {
+  grid-area: 1 / 1 / 3 / span 3;
 }
