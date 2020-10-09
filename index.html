@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Training CSS</title>
+  <link href="./style.css" type="text/css" rel="stylesheet" >
+
+  <style>
+    h5 {
+      color: orange;
+      border-color: black;
+      border-style: dotted;
+    }
+  </style>
+
 </head>
+
 <body>
+  <p style="color: red; font-size: 50px; font-family: Arial;">This is written with some inline styling.</p>
+  <h5>This h5 has been styled with the style tag in the index.html file </h5>
+  <p class="attention quote">This text has two classes: attention and quote.</p>
+  <p id="testing_ids">This paragraph has been selected with an ID.</p>
   <div class="grid">
     <div class="box a">A</div>
     <div class="box b">B</div>
@@ -20,6 +34,18 @@
 
 
   <h1>Hello there. testing gh-pages</h1>
+
+  <h1 class="attention">Another H1 but this time with the class attention</h1>
+
+  <h1 class="attention real">This H1 has the classes attention and real and in the css they have been chained as h1.attention.real</h1>
+
+  <div class="description">
+    <h5>Heading in the div with the class description but with a nested style for all h5s nested in description-class-html-elements</h5>
+    <p>Description text</p>
+  </div>
+
+  <h2>This is an h2 heading</h2>
+  <h3>This is an h3 heading. they have both been stayled in one block.</h3>
 
 </body>
 </html>

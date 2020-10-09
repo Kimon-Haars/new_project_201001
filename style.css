@@ -18,3 +18,39 @@ h1 {
 .a {
   grid-area: 1 / 1 / 3 / span 3;
 }
+
+.attention {
+  color: maroon;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.quote {
+  font-style: italic;
+  font-family: cursive;
+}
+
+#testing_ids {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+h1.attention {
+  font-size: 50px;
+}
+
+h1.attention.real {
+  font-size: 10px;
+}
+
+.description {
+  font-size: 3rem;
+}
+
+.description h5 {
+  font-size: 1.5rem;
+}
+
+h2, h3 {
+  color: BlueViolet;
+}
