@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+.boring {
+  width: 120px;
+  height: 70px;
+  background-color: red;
+}
+
+.box-top {
+  width: 120px;
+  height: 70px;
+  background-color: DeepSkyBlue;
+  position: fixed;
+  right: 200px;
+}
+
+.box-bottom {
+  width: 120px;
+  height: 70px;
+  background-color: maroon;
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+.surrounding_box_1 {
+  background-color: grey;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 300px;
+}
+
+.surrounding_box_2 {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: -100px;
+  left: 500px;
+}
+
+.absolute_element {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 190px;
+}
